@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discord Webhook Tool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Discord Webhook Tool</h1>
+		</div>
+		<div class="form">
+			<label for="webhook-url">Webhook-URL:</label>
+			<input type="text" id="webhook-url" placeholder="Webhook Link">
+
+			<label for="message">Message:</label>
+			<textarea id="message" placeholder="Enter message" rows="5"></textarea>
+
+			<label for="name">Name:</label>
+			<input type="text" id="name" placeholder="Webhook Name">
+
+
+			<div class="buttons">
+				<button type="button" class="send" onclick="sendMessage()">send</button>
+				<button type="button" class="change-name" onclick="changeName()">change name</button>
+				<button type="button" class="delete" onclick="deleteWebhook()">Delete webhook</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="container">
+    <p>&copy; 2023 Niceas / Nici002018. All rights reserved.</p>
+    </div>
+  </footer>
+</html>
