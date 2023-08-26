@@ -7,5 +7,3 @@ You just have to enter the webhook link and then you can decide whether to delet
 ## Demo
 
 https://nici002018.github.io/Discrod-Webhook-Tool/
-
-http://88.214.57.117:8100/webhooktool/index.html
